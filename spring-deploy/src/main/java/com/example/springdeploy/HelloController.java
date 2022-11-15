@@ -16,7 +16,7 @@ public class HelloController {
     }
 
     //este metodo devuelve una vista bootstrap, las 3 comillas sirven para poner texto sin concatenar
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """              
                 <!doctype html>
